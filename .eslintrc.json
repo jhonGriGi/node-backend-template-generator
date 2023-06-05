@@ -1,0 +1,14 @@
+{
+    "ignorePatterns": ["node_modules/"],
+    "extends": ["eslint:recommended", "plugin:@typescript-eslint/recommended"],
+    "parser": "@typescript-eslint/parser",
+    "parserOptions": {
+        "ecmaVersion": 2021,
+        "sourceType": "module"
+    },
+    "plugins": ["typescript", "@typescript-eslint"],
+    "rules": {
+        "indent": ["error", 4]
+    }
+}
+
